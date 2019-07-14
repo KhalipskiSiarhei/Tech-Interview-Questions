@@ -6,7 +6,10 @@
 * What’s the difference between typeof and instanceof?
 * What are the ways of creating objects in JavaScript?
 * Properties of object. Attributes of properties: name, value, writable, enumerable, configurable
-* Methods to work with properties
+*	How can you get the list of keys of any object?
+*	How do you copy properties from one object to other?
+*	What is the purpose of assign method?
+*	What is a spread operator?
 * What is NaN, why do we need it, and when can it break the page?
 * How to check if the value of a variable in an array?
 * Best way to detect reference values of any type in JavaScript?
@@ -33,7 +36,7 @@
 * Strings, wrapper objects
 * Explicit conversions, object to numbers, object to string
 * What is the difference between `==` and `===`?
-* What is strict mode?
+* What is strict mode?	Why do you need strict mode? How do you declare strict mode?
 * Object inheritance. How to get prototype? How to set prototype?
 * Arrays. How to create array, how to clean array, new array methods in ECMAScript5/6
 * Array like objects. What is it?
@@ -157,9 +160,6 @@
 *	What is promise chaining?
 *	What is promise.all
 *	What is the purpose of race method in promise?
-*	What is a strict mode in javascript?
-*	Why do you need strict mode?
-*	How do you declare strict mode?
 *	What is the purpose of double exclamation?
 *	What is eval?
 *	What is the difference between window and document?
@@ -225,7 +225,6 @@
 *	What are js labels?
 *	What are the benefits of keeping declarations at the top?
 *	What are the benefits of initializing variables?
-*	What are the recommendations to create new object?
 *	How do you define JSON arrays?
 *	How do you generate random integers?
 *	Can you write a random integers function to print integers with in a range?
@@ -266,12 +265,9 @@
 *	What is a rest parameter?
 *	What happens if you do not use rest parameter as a last argument?
 *	What are the bitwise operators available in javascript?
-*	What is a spread operator?
 *	How do you determine whether object is frozen or not?
 *	How do you determine two values same or not using object?
 *	What is the purpose of using object is method?
-*	How do you copy properties from one object to other?
-*	What are the applications of assign method?
 *	What is a proxy object?
 *	What is the purpose of seal method?
 *	What are the applications of seal method?
@@ -279,14 +275,6 @@
 *	How do you determine if an object is sealed or not?
 *	How do you get enumerable key and value pairs?
 *	What is the main difference between Object.values and Object.entries method?
-*	How can you get the list of keys of any object?
-*	How do you create an object with prototype?
-*	What is a WeakSet?
-*	What are the differences between WeakSet and Set?
-*	List down the collection of methods available on WeakSet?
-*	What is a WeakMap?
-*	What are the differences between WeakMap and Map?
-*	List down the collection of methods available on WeakMap?
 *	What is the purpose of uneval?
 *	How do you encode an URL?
 *	How do you decode an URL?
