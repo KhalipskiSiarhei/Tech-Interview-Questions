@@ -1,14 +1,54 @@
+*	What are the possible ways to create objects in JavaScript?
+* What's the difference between null, undefined and not declared in JavaScript
+* How to empty an array in JavaScript?
+* How to check if an object is an array or not?
+*	What is Hoisting, block scope, lexical scope?
+* What’s the difference between typeof and instanceof?
+* What are the ways of creating objects in JavaScript?
+* Properties of object. Attributes of properties: name, value, writable, enumerable, configurable
+* Methods to work with properties
+* What is NaN, why do we need it, and when can it break the page?
+* How to check if the value of a variable in an array?
+* Best way to detect reference values of any type in JavaScript?
+* How does Object.create method works JavaScript?
+* What is the purpose of array splice method?
+*	What is the difference between slice and splice?
+*	How do you compare Object and Map?
+*	What is the difference between == and === operators?
+*	What is the difference between let and var?
+* Tempopary dead zone. What it is?
+*	What is the purpose of delete operator?
+*	What is the difference between null and undefined?
+*	What is the difference between native, host and user objects?
+*	What are the javascript data types?
+*	What is isNaN?
+*	What are the differences between undeclared and undefined variables?
+*	What are global variables?
+*	What are the problems with global variables?
+*	What is NaN property?
+*	What is the purpose of isFinite function?
+*	How do you check if a key exists in an object?
+*	What are primitive data types? What are object types? Differences?
+* Numbers
+* Strings, wrapper objects
+* Explicit conversions, object to numbers, object to string
+* What is the difference between `==` and `===`?
+* What is strict mode?
+* Object inheritance. How to get prototype? How to set prototype?
+* Arrays. How to create array, how to clean array, new array methods in ECMAScript5/6
+* Array like objects. What is it?
+* Array vs Set vs WeakSet vs Map vs WeakMap
+
+
 * [Explain event delegation](#explain-event-delegation)
 * [Explain how `this` works in JavaScript](#explain-how-this-works-in-javascript)
 * [Explain how prototypal inheritance works](#explain-how-prototypal-inheritance-works)
 * [What do you think of AMD vs CommonJS?](#what-do-you-think-of-amd-vs-commonjs)
 * [Explain why the following doesn't work as an IIFE: `function foo(){ }();`. What needs to be changed to properly make it an IIFE?](#explain-why-the-following-doesnt-work-as-an-iife-function-foo--what-needs-to-be-changed-to-properly-make-it-an-iife)
-* [What's the difference between a variable that is: `null`, `undefined` or undeclared? How would you go about checking for any of these states?](#whats-the-difference-between-a-variable-that-is-null-undefined-or-undeclared-how-would-you-go-about-checking-for-any-of-these-states)
 * [What is a closure, and how/why would you use one?](#what-is-a-closure-and-howwhy-would-you-use-one)
 * [Can you describe the main difference between a `.forEach` loop and a `.map()` loop and why you would pick one versus the other?](#can-you-describe-the-main-difference-between-a-foreach-loop-and-a-map-loop-and-why-you-would-pick-one-versus-the-other)
 * [What's a typical use case for anonymous functions?](#whats-a-typical-use-case-for-anonymous-functions)
 * [How do you organize your code? (module pattern, classical inheritance?)](#how-do-you-organize-your-code-module-pattern-classical-inheritance)
-* [What's the difference between host objects and native objects?](#whats-the-difference-between-host-objects-and-native-objects)
 * [Difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`?](#difference-between-function-person-var-person--person-and-var-person--new-person)
 * [What's the difference between `.call` and `.apply`?](#whats-the-difference-between-call-and-apply)
 * [Explain `Function.prototype.bind`.](#explain-functionprototypebind)
@@ -18,16 +58,13 @@
 * [What are the advantages and disadvantages of using Ajax?](#what-are-the-advantages-and-disadvantages-of-using-ajax)
 * [Explain how JSONP works (and how it's not really Ajax).](#explain-how-jsonp-works-and-how-its-not-really-ajax)
 * [Have you ever used JavaScript templating? If so, what libraries have you used?](#have-you-ever-used-javascript-templating-if-so-what-libraries-have-you-used)
-* [Explain "hoisting".](#explain-hoisting)
 * [Describe event bubbling.](#describe-event-bubbling)
 * [What's the difference between an "attribute" and a "property"?](#whats-the-difference-between-an-attribute-and-a-property)
 * [Why is extending built-in JavaScript objects not a good idea?](#why-is-extending-built-in-javascript-objects-not-a-good-idea)
 * [Difference between document `load` event and document `DOMContentLoaded` event?](#difference-between-document-load-event-and-document-domcontentloaded-event)
-* [What is the difference between `==` and `===`?](#what-is-the-difference-between--and-)
 * [Explain the same-origin policy with regards to JavaScript.](#explain-the-same-origin-policy-with-regards-to-javascript)
 * [Make this work: `duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]`](#make-this-work)
 * [Why is it called a Ternary expression, what does the word "Ternary" indicate?](#why-is-it-called-a-ternary-expression-what-does-the-word-ternary-indicate)
-* [What is "use strict";? what are the advantages and disadvantages to using it?](#what-is-use-strict-what-are-the-advantages-and-disadvantages-to-using-it)
 * [Create a for loop that iterates up to 100 while outputting "fizz" at multiples of 3, "buzz" at multiples of 5 and "fizzbuzz" at multiples of 3 and 5](#create-a-for-loop-that-iterates-up-to-100-while-outputting-fizz-at-multiples-of-3-buzz-at-multiples-of-5-and-fizzbuzz-at-multiples-of-3-and-5)
 * [Why is it, in general, a good idea to leave the global scope of a website as-is and never touch it?](#why-is-it-in-general-a-good-idea-to-leave-the-global-scope-of-a-website-as-is-and-never-touch-it)
 * [Why would you use something like the `load` event? Does this event have disadvantages? Do you know any alternatives, and why would you use those?](#why-would-you-use-something-like-the-load-event-does-this-event-have-disadvantages-do-you-know-any-alternatives-and-why-would-you-use-those)
@@ -54,41 +91,20 @@
 * [Why you might want to create static class members?](#why-you-might-want-to-create-static-class-members)
 
 // https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Questions
-* What's the difference between undefined and not defined in JavaScript
-* How to empty an array in JavaScript?
-* How to check if an object is an array or not?
-* In which case the function definition is not hoisted in JavaScript?
-* What’s the difference between typeof and instanceof?
-* Calculate the length of the associative array
 * Difference between Function, Method and Constructor calls in JavaScript.
 * What is the difference between a method and a function in javascript?
 * What is IIFE (Immediately Invoked Function Expression) and how it can be useful?
 * Describe Singleton Pattern In JavaScript
-* What are the ways of creating objects in JavaScript ?
 * Write a function called deepClone which takes an object and creates a object copy of it
 * Write a function called Clone which takes an object and creates a object copy of it but not copy deep property of object
 * What are promises and how they are useful?
-* What is NaN, why do we need it, and when can it break the page?
-* How to check if the value of a variable in an array?
-* Best way to detect reference values of any type in JavaScript?
-* How does Object.create method works JavaScript?
 * How to use constructor functions for inheritance in JavaScript?
-* How we can prevent modification of object in JavaScript ?
-* What is non-enumerable property in JavaScript and how you can create one?
+* How we can prevent modification of object in JavaScript?
 
 // https://github.com/sudheerj/javascript-interview-questions
-*	What are the possible ways to create objects in JavaScript?
 *	What is prototype chain?
 *	What is the difference between Call, Apply and Bind?
 *	What is JSON and its common operations
-*	What are the possible ways to create objects in JavaScript?
-*	What is prototype chain?
-*	What is the difference between Call, Apply and Bind?
-*	What is JSON and its common operations
-* What is the purpose of array splice method?
-*	What is the difference between slice and splice?
-*	How do you compare Object and Map?
-*	What is the difference between == and === operators?
 *	What are lambda or arrow functions?
 *	What is a first class function?
 *	What is a first order function?
@@ -96,15 +112,11 @@
 *	What is a unary function?
 *	What is currying function?
 *	What is a pure function?
-*	What is the purpose of let keyword?
-*	What is the difference between let and var?
-*	What is the reason to choose the name let as keyword?
 *	How do you redeclare variables in switch block without an error?
 *	What is Temporal Dead Zone?
 *	What is IIFE(Immediately Invoked Function Expression)?
 *	What is the benefit of using modules?
 *	What is memoization?
-*	What is Hoisting?
 *	What are classes in ES6?
 *	What are closures?
 *	What are modules?
@@ -149,28 +161,15 @@
 *	Why do you need strict mode?
 *	How do you declare strict mode?
 *	What is the purpose of double exclamation?
-*	What is the purpose of delete operator?
-*	What is typeof operator?
-*	What is undefined property?
-*	What is null value?
-*	What is the difference between null and undefined?
 *	What is eval?
 *	What is the difference between window and document?
 *	How do you access history in javascript?
-*	What are the javascript data types?
-*	What is isNaN?
-*	What are the differences between undeclared and undefined variables?
-*	What are global variables?
-*	What are the problems with global variables?
-*	What is NaN property?
-*	What is the purpose of isFinite function?
 *	What is an event flow?
 *	What is event bubbling?
 *	What is event capturing?
 *	How do you submit a form using JavaScript?
 *	How do you find operating system details?
 *	What is the difference between document load and DOMContentLoaded events?
-*	What is the difference between native, host and user objects?
 *	What are the tools or techniques used for debugging JavaScript code?
 *	What are the pros and cons of promises over callbacks?
 *	What is the difference between an attribute and a property?
@@ -302,7 +301,6 @@
 *	Can I add getters and setters using defineProperty method?
 *	What is the purpose of switch-case?
 *	What are the conventions to be followed for the usage of swtich case?
-*	What are primitive data types?
 *	What are the different ways to access object properties?
 *	What are the function parameter rules?
 *	What is an error object?
