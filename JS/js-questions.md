@@ -39,7 +39,7 @@
 * Array like objects. What is it?
 * Array vs Set vs WeakSet vs Map vs WeakMap
 
-
+// Still need to study
 * [Explain event delegation](#explain-event-delegation)
 * [Explain how `this` works in JavaScript](#explain-how-this-works-in-javascript)
 * [Explain how prototypal inheritance works](#explain-how-prototypal-inheritance-works)
