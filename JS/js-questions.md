@@ -61,13 +61,22 @@
 *	What is a pure function?
 *	What is a rest parameter?
 * Can you give an example for destructuring an object, array and parameters?
+* Explain how prototypal inheritance works/What is prototype chain?
+* Difference between Function, Method and Constructor calls in JavaScript
+* Difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`?
+* Why is it, in general, a good idea to leave the global scope of a website as-is and never touch it?
+*	What are the main rules of promise?
+*	What is callback in callback?
+*	What is promise chaining?
+*	What is promise.all
+*	What is the purpose of race method in promise?
+*	What are the pros and cons of promises over callbacks?
+*	What is an Iterator?
 
 // Still need to study
 * [Explain event delegation](#explain-event-delegation)
-* [Explain how prototypal inheritance works](#explain-how-prototypal-inheritance-works)
 * [What do you think of AMD vs CommonJS?](#what-do-you-think-of-amd-vs-commonjs)
 * [How do you organize your code? (module pattern, classical inheritance?)](#how-do-you-organize-your-code-module-pattern-classical-inheritance)
-* [Difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`?](#difference-between-function-person-var-person--person-and-var-person--new-person)
 * [When would you use `document.write()`?](#when-would-you-use-documentwrite)
 * [What's the difference between feature detection, feature inference, and using the UA string?](#whats-the-difference-between-feature-detection-feature-inference-and-using-the-ua-string)
 * [Explain Ajax in as much detail as possible.](#explain-ajax-in-as-much-detail-as-possible)
@@ -81,7 +90,6 @@
 * [Explain the same-origin policy with regards to JavaScript.](#explain-the-same-origin-policy-with-regards-to-javascript)
 * [Why is it called a Ternary expression, what does the word "Ternary" indicate?](#why-is-it-called-a-ternary-expression-what-does-the-word-ternary-indicate)
 * [Create a for loop that iterates up to 100 while outputting "fizz" at multiples of 3, "buzz" at multiples of 5 and "fizzbuzz" at multiples of 3 and 5](#create-a-for-loop-that-iterates-up-to-100-while-outputting-fizz-at-multiples-of-3-buzz-at-multiples-of-5-and-fizzbuzz-at-multiples-of-3-and-5)
-* [Why is it, in general, a good idea to leave the global scope of a website as-is and never touch it?](#why-is-it-in-general-a-good-idea-to-leave-the-global-scope-of-a-website-as-is-and-never-touch-it)
 * [Why would you use something like the `load` event? Does this event have disadvantages? Do you know any alternatives, and why would you use those?](#why-would-you-use-something-like-the-load-event-does-this-event-have-disadvantages-do-you-know-any-alternatives-and-why-would-you-use-those)
 * [Explain what a single page app is and how to make one SEO-friendly.](#explain-what-a-single-page-app-is-and-how-to-make-one-seo-friendly)
 * [What is the extent of your experience with Promises and/or their polyfills?](#what-is-the-extent-of-your-experience-with-promises-andor-their-polyfills)
@@ -98,16 +106,13 @@
 * [Why you might want to create static class members?](#why-you-might-want-to-create-static-class-members)
 
 // https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Questions
-* Difference between Function, Method and Constructor calls in JavaScript.
 * Describe Singleton Pattern In JavaScript
 * Write a function called deepClone which takes an object and creates a object copy of it
 * Write a function called Clone which takes an object and creates a object copy of it but not copy deep property of object
 * What are promises and how they are useful?
-* How to use constructor functions for inheritance in JavaScript?
 * How we can prevent modification of object in JavaScript?
 
 // https://github.com/sudheerj/javascript-interview-questions
-*	What is prototype chain?
 *	What is JSON and its common operations
 *	What is a first class function?
 *	What is a first order function?
@@ -149,11 +154,6 @@
 *	How do you receive server-sent event notifications?
 *	How do you check browser support for server-sent events?
 *	What are the events available for server sent events?
-*	What are the main rules of promise?
-*	What is callback in callback?
-*	What is promise chaining?
-*	What is promise.all
-*	What is the purpose of race method in promise?
 *	What is the purpose of double exclamation?
 *	What is eval?
 *	What is the difference between window and document?
@@ -163,7 +163,6 @@
 *	What is event capturing?
 *	What is the difference between document load and DOMContentLoaded events?
 *	What are the tools or techniques used for debugging JavaScript code?
-*	What are the pros and cons of promises over callbacks?
 *	What is the difference between an attribute and a property?
 *	What is same-origin policy?
 *	What are events?
@@ -231,7 +230,6 @@
 *	What are the function parameter rules?
 *	What are the different error names from error object?
 *	What are the various statements in error handling?
-*	What is an Iterator?
 *	What is an event loop?
 *	What is call stack?
 *	What is an event queue?
