@@ -47,6 +47,7 @@
 * What is a closure, and how/why would you use one?
 * Can you describe the main difference between a `.forEach` loop and a `.map()` loop and why you would pick one versus the other?
 * What's a typical use case for anonymous functions?
+*	What is an arguments object?
 * What's the difference between `.call` and `.apply`?
 * Explain `Function.prototype.bind`
 * Make this work: `duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]`
@@ -62,16 +63,17 @@
 *	What is a rest parameter?
 * Can you give an example for destructuring an object, array and parameters?
 * Explain how prototypal inheritance works/What is prototype chain?
+*	What is the difference between proto and prototype?
 * Difference between Function, Method and Constructor calls in JavaScript
 * Difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`?
 * Why is it, in general, a good idea to leave the global scope of a website as-is and never touch it?
 *	What are the main rules of promise?
-*	What is callback in callback?
+*	What is callback hell?
 *	What is promise chaining?
-*	What is promise.all
-*	What is the purpose of race method in promise?
+*	What is promise.all/promise.race
 *	What are the pros and cons of promises over callbacks?
 *	What is an Iterator?
+*	What is the main difference between Object.values and Object.entries method?
 
 // Still need to study
 * [Explain event delegation](#explain-event-delegation)
@@ -132,24 +134,14 @@
 *	What is a post message?
 *	What is a cookie?
 *	Why do you need a Cookie?
-*	What are the options in a cookie?
-*	How do you delete a cookie?
 *	What are the differences between cookie, local storage and session storage?
 *	What is the main difference between localStorage and sessionStorage?
 *	How do you access web storage?
 *	What are the methods available on session storage?
 *	What is a storage event and its event handler?
 *	Why do you need web storage?
-*	How do you check web storage browser support?
-*	How do you check web workers browser support?
 *	Give an example of web worker?
 *	What are the restrictions of web workers on DOM?
-*	What is a promise?
-*	Why do you need a promise?
-*	What are the three states of promise?
-*	What is a callback function?
-*	Why do we need callbacks?
-*	What is a callback hell?
 *	What is server-sent events?
 *	How do you receive server-sent event notifications?
 *	How do you check browser support for server-sent events?
@@ -188,8 +180,6 @@
 *	How do you check if a key exists in an object?
 *	How do you loop through or enumerate javascript object?
 *	How do you test for an empty object?
-*	What is an arguments object?
-*	How do you display the current date in javascript?
 *	How do you compare two date objects?
 *	What is an app shell model?
 *	Can we define properties for functions?
@@ -197,17 +187,14 @@
 *	What is a polyfill?
 *	What are break and continue statements?
 *	What are js labels?
-*	Is it recommended to use eval?
 *	What is a debugger statement?
 *	How do you make synchronous HTTP request?
 *	How do you make asynchronous HTTP request?
 *	How do you convert date to another timezone in javascript?
 *	What are the ways to execute javascript after page load?
-*	What is the difference between proto and prototype?
 *	What is a freeze method?
 *	What is the purpose of freeze method?
 *	Why do I need to use freeze method?
-*	How do you detect a browser language preference?
 *	How to convert string to title case with javascript?
 *	How do you detect javascript disabled in the page?
 *	What are various operators supported by javascript?
@@ -220,9 +207,6 @@
 *	What are the differences between freeze and seal methods?
 *	How do you determine if an object is sealed or not?
 *	How do you get enumerable key and value pairs?
-*	What is the main difference between Object.values and Object.entries method?
-*	What is the purpose of uneval?
-*	What is the difference between uneval and eval?
 *	What are javascript accessors?
 *	How do you define property on Object constructor?
 *	What is the difference between get and defineProperty?
