@@ -74,6 +74,7 @@
 *	What are the pros and cons of promises over callbacks?
 *	What is an Iterator?
 *	What is the main difference between Object.values and Object.entries method?
+* Sync/async/defered scripts
 
 // Still need to study
 * [Explain event delegation](#explain-event-delegation)
