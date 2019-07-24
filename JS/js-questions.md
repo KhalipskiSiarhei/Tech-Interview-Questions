@@ -4,7 +4,6 @@
 * How to check if an object is an array or not?
 *	What is Hoisting, block scope, lexical scope?
 * What’s the difference between typeof and instanceof?
-* What are the ways of creating objects in JavaScript?
 * Properties of object. Attributes of properties: name, value, writable, enumerable, configurable
 *	How can you get the list of keys of any object?
 *	How do you copy properties from one object to other?
