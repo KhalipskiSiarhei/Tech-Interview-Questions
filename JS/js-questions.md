@@ -1,23 +1,23 @@
-*	What are the possible ways to create objects in JavaScript?
-* What's the difference between null, undefined and not declared in JavaScript
-* How to empty an array in JavaScript?
-* How to check if an object is an array or not?
-*	What is Hoisting, block scope, lexical scope?
-* What’s the difference between typeof and instanceof?
-* Properties of object. Attributes of properties: name, value, writable, enumerable, configurable
-*	How can you get the list of keys of any object?
-*	How do you copy properties from one object to other?
-* Why is extending built-in JavaScript objects not a good idea?
-*	What is the purpose of assign method?
-*	What is a spread operator?
-* What is NaN, why do we need it, and when can it break the page?
-* How to check if the value of a variable in an array?
-* Best way to detect reference values of any type in JavaScript?
-* How does Object.create method works JavaScript?
-* What is the purpose of array splice method?
-*	What is the difference between slice and splice?
-*	How do you compare Object and Map?
-*	What is the difference between == and === operators?
+1	What are the possible ways to create objects in JavaScript?
+2 What's the difference between null, undefined and not declared in JavaScript
+3 How to empty an array in JavaScript?
+4 How to check if an object is an array or not?
+5	What is Hoisting, block scope, lexical scope?
+6 What’s the difference between typeof and instanceof?
+7 Properties of object. Attributes of properties: name, value, writable, enumerable, configurable
+8	How can you get the list of keys of any object?
+9	How do you copy properties from one object to other?
+10 Why is extending built-in JavaScript objects not a good idea?
+11	What is the purpose of assign method?
+12	What is a spread operator?
+13 What is NaN, why do we need it, and when can it break the page?
+14 How to check if the value of a variable in an array?
+15 Best way to detect reference values of any type in JavaScript?
+16 How does Object.create method works JavaScript?
+17 What is the purpose of array splice method?
+18	What is the difference between slice and splice?
+19	How do you compare Object and Map?
+20	What is the difference between == and === operators?
 *	What is the difference between let and var?
 * Tempopary dead zone. What it is?
 *	What is the purpose of delete operator?
