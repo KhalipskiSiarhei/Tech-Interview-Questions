@@ -85,6 +85,9 @@
 * Explain how JSONP works (and how it's not really Ajax)
 * What's the difference between feature detection, feature inference, using the UA string, polyfills?
 * What's the difference between an "attribute" and a "property"?
+* What is event loop? What is the difference between call stack and task queue?
+* Micro-tasks vs Macro-tasks
+* Explain the difference between synchronous and asynchronous functions
 
 
 // Still need to study
@@ -99,8 +102,6 @@
 * [What are some of the advantages/disadvantages of writing JavaScript code in a language that compiles to JavaScript?](#what-are-some-of-the-advantagesdisadvantages-of-writing-javascript-code-in-a-language-that-compiles-to-javascript)
 * [What tools and techniques do you use debugging JavaScript code?](#what-tools-and-techniques-do-you-use-for-debugging-javascript-code)
 * [Explain the difference between mutable and immutable objects.](#explain-the-difference-between-mutable-and-immutable-objects)
-* [Explain the difference between synchronous and asynchronous functions.](#explain-the-difference-between-synchronous-and-asynchronous-functions)
-* [What is event loop? What is the difference between call stack and task queue?](#what-is-event-loop-what-is-the-difference-between-call-stack-and-task-queue)
 * [What are the differences between ES6 class and ES5 function constructors?](#what-are-the-differences-between-es6-class-and-es5-function-constructors)
 * [ES6 Template Literals offer a lot of flexibility in generating strings, can you give an example?](#es6-template-literals-offer-a-lot-of-flexibility-in-generating-strings-can-you-give-an-example)
 * [What are the benefits of using spread syntax and how is it different from rest syntax?](#what-are-the-benefits-of-using-spread-syntax-and-how-is-it-different-from-rest-syntax)
