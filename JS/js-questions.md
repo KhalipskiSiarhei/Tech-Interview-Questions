@@ -1,14 +1,14 @@
-*	What are the possible ways to create objects in JavaScript?
+* What are the possible ways to create objects in JavaScript?
 * What's the difference between null, undefined and not declared in JavaScript
 * How to empty an array in JavaScript?
 * How to check if an object is an array or not?
-*	What is Hoisting, block scope, lexical scope?
+* What is Hoisting, block scope, lexical scope?
 * What’s the difference between typeof and instanceof?
 * Properties of object. Attributes of properties: name, value, writable, enumerable, configurable
-*	How can you get the list of keys of any object?
-*	How do you copy properties from one object to other?
+* How can you get the list of keys of any object?
+* How do you copy properties from one object to other?
 * Why is extending built-in JavaScript objects not a good idea?
-*	What is the purpose of assign method?
+* What is the purpose of assign method?
 *	What is a spread operator?
 * What is NaN, why do we need it, and when can it break the page?
 * How to check if the value of a variable in an array?
@@ -78,18 +78,19 @@
 * Difference between document `load` event and document `DOMContentLoaded` event?
 * Explain the same-origin policy with regards to JavaScript
 * Why would you use something like the `load` event? Does this event have disadvantages? Do you know any alternatives, and why would you use those?
+* Explain event delegation
+* Describe event bubbling
+* Explain Ajax in as much detail as possible
+* What are the advantages and disadvantages of using Ajax?
+* Explain how JSONP works (and how it's not really Ajax)
+
 
 // Still need to study
-* [Explain event delegation](#explain-event-delegation)
 * [What do you think of AMD vs CommonJS?](#what-do-you-think-of-amd-vs-commonjs)
 * [How do you organize your code? (module pattern, classical inheritance?)](#how-do-you-organize-your-code-module-pattern-classical-inheritance)
 * [When would you use `document.write()`?](#when-would-you-use-documentwrite)
 * [What's the difference between feature detection, feature inference, and using the UA string?](#whats-the-difference-between-feature-detection-feature-inference-and-using-the-ua-string)
-* [Explain Ajax in as much detail as possible.](#explain-ajax-in-as-much-detail-as-possible)
-* [What are the advantages and disadvantages of using Ajax?](#what-are-the-advantages-and-disadvantages-of-using-ajax)
-* [Explain how JSONP works (and how it's not really Ajax).](#explain-how-jsonp-works-and-how-its-not-really-ajax)
 * [Have you ever used JavaScript templating? If so, what libraries have you used?](#have-you-ever-used-javascript-templating-if-so-what-libraries-have-you-used)
-* [Describe event bubbling.](#describe-event-bubbling)
 * [What's the difference between an "attribute" and a "property"?](#whats-the-difference-between-an-attribute-and-a-property)
 * [Why is it called a Ternary expression, what does the word "Ternary" indicate?](#why-is-it-called-a-ternary-expression-what-does-the-word-ternary-indicate)
 * [Create a for loop that iterates up to 100 while outputting "fizz" at multiples of 3, "buzz" at multiples of 5 and "fizzbuzz" at multiples of 3 and 5](#create-a-for-loop-that-iterates-up-to-100-while-outputting-fizz-at-multiples-of-3-buzz-at-multiples-of-5-and-fizzbuzz-at-multiples-of-3-and-5)
