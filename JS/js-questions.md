@@ -12,7 +12,6 @@
 *	What is a spread operator?
 * What is NaN, why do we need it, and when can it break the page?
 * How to check if the value of a variable in an array?
-* Best way to detect reference values of any type in JavaScript?
 * How does Object.create method works JavaScript?
 * What is the purpose of array splice method?
 *	What is the difference between slice and splice?
