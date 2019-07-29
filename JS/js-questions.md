@@ -17,8 +17,6 @@
 *	How do you compare Object and Map?
 *	What is the difference between == and === operators?
 * Tempopary dead zone. What it is?
-*	What is the purpose of delete operator?
-*	What is the difference between null and undefined?
 *	What is the difference between native, host and user objects?
 *	What are the javascript data types?
 *	What is isNaN?
