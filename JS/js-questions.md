@@ -16,7 +16,6 @@
 *	What is the difference between slice and splice?
 *	How do you compare Object and Map?
 *	What is the difference between == and === operators?
-*	What is the difference between let and var?
 * Tempopary dead zone. What it is?
 *	What is the purpose of delete operator?
 *	What is the difference between null and undefined?
