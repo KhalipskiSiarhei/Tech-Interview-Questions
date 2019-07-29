@@ -15,27 +15,21 @@
 * What is the purpose of array splice method?
 *	What is the difference between slice and splice?
 *	How do you compare Object and Map?
+* Array vs Set vs WeakSet vs Map vs WeakMap
 *	What is the difference between == and === operators?
 * Tempopary dead zone. What it is?
 *	What is the difference between native, host and user objects?
 *	What are the javascript data types?
-*	What is isNaN?
-*	What are the differences between undeclared and undefined variables?
-*	What are global variables?
-*	What are the problems with global variables?
-*	What is NaN property?
-*	What is the purpose of isFinite function?
-*	How do you check if a key exists in an object?
 *	What are primitive data types? What are object types? Differences?
-* Numbers
 * Strings, wrapper objects
+*	What are global variables? What are the problems with global variables?
+*	What is the purpose of isFinite function?
+* Numbers + Money
 * Explicit conversions, object to numbers, object to string
-* What is the difference between `==` and `===`?
 * What is strict mode?	Why do you need strict mode? How do you declare strict mode?
 * Object inheritance. How to get prototype? How to set prototype?
 * Arrays. How to create array, how to clean array, new array methods in ECMAScript5/6
 * Array like objects. What is it?
-* Array vs Set vs WeakSet vs Map vs WeakMap
 * Explain how `this` works in JavaScript
 * What is IIFE (Immediately Invoked Function Expression) and how it can be useful?
 * Explain why the following doesn't work as an IIFE: `function foo(){ }();`. What needs to be changed to properly make it an IIFE?
