@@ -33,8 +33,10 @@
 * Explain how `this` works in JavaScript
 * What is IIFE (Immediately Invoked Function Expression) and how it can be useful?
 * Explain why the following doesn't work as an IIFE: `function foo(){ }();`. What needs to be changed to properly make it an IIFE?
-* What is a closure, and how/why would you use one?
 * Can you describe the main difference between a `.forEach` loop and a `.map()` loop and why you would pick one versus the other?
+* What advantage is there for using the arrow syntax for a method in a constructor?
+
+* What is a closure, and how/why would you use one?
 * What's a typical use case for anonymous functions?
 *	What is an arguments object?
 * What's the difference between `.call` and `.apply`?
@@ -43,9 +45,10 @@
 * What language constructions do you use for iterating over object properties and array items?
 * Explain the differences on the usage of `foo` between `function foo() {}` and `var foo = function() {}`
 * Can you offer a use case for the new arrow => function syntax? How does this new syntax differ from other functions?
-* What advantage is there for using the arrow syntax for a method in a constructor?
 * What is the definition of a higher-order function?
+
 *	What is memoization?
+* What is monada?
 * Can you give an example of a curry function and why this syntax offers an advantage?
 * What is the difference between a method and a function in javascript?
 *	What is a pure function?
