@@ -35,7 +35,7 @@
 * Explain why the following doesn't work as an IIFE: `function foo(){ }();`. What needs to be changed to properly make it an IIFE?
 * Can you describe the main difference between a `.forEach` loop and a `.map()` loop and why you would pick one versus the other?
 * What advantage is there for using the arrow syntax for a method in a constructor?
-
+// We are here
 * What is a closure, and how/why would you use one?
 * What's a typical use case for anonymous functions?
 *	What is an arguments object?
@@ -46,7 +46,7 @@
 * Explain the differences on the usage of `foo` between `function foo() {}` and `var foo = function() {}`
 * Can you offer a use case for the new arrow => function syntax? How does this new syntax differ from other functions?
 * What is the definition of a higher-order function?
-
+// Till this questions
 *	What is memoization?
 * What is monada?
 * Can you give an example of a curry function and why this syntax offers an advantage?
