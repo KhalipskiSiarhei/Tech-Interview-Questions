@@ -80,11 +80,12 @@
 * What is event loop? What is the difference between call stack and task queue?
 * Micro-tasks vs Macro-tasks
 * Explain the difference between synchronous and asynchronous functions
+* What do you think of AMD vs CommonJS?
+* How do you organize your code? (module pattern, classical inheritance?)
+* CEO
 
 
 // Still need to study
-* [What do you think of AMD vs CommonJS?](#what-do-you-think-of-amd-vs-commonjs)
-* [How do you organize your code? (module pattern, classical inheritance?)](#how-do-you-organize-your-code-module-pattern-classical-inheritance)
 * [When would you use `document.write()`?](#when-would-you-use-documentwrite)
 * [Have you ever used JavaScript templating? If so, what libraries have you used?](#have-you-ever-used-javascript-templating-if-so-what-libraries-have-you-used)
 * [Why is it called a Ternary expression, what does the word "Ternary" indicate?](#why-is-it-called-a-ternary-expression-what-does-the-word-ternary-indicate)
