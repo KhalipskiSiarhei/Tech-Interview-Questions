@@ -46,9 +46,6 @@
 * Can you offer a use case for the new arrow => function syntax? How does this new syntax differ from other functions?
 * What is the definition of a higher-order function?
 *	What is memoization?
-
-* -------------------------------------------------------------
-* What is monada?
 * Can you give an example of a curry function and why this syntax offers an advantage?
 * What is the difference between a method and a function in javascript?
 *	What is a pure function?
@@ -58,18 +55,20 @@
 *	What is callback hell?
 *	What is promise chaining?
 *	What is promise.all/promise.race
-* -------------------------------------------------------------
-
 *	What are the pros and cons of promises over callbacks?
+* -----------------------------------------------------------------------------
+* What is monada?
 *	What is an Iterator?
 *	What is the main difference between Object.values and Object.entries method?
 * Sync/async/defered scripts
 * Difference between document `load` event and document `DOMContentLoaded` event?
+
 * Explain the same-origin policy with regards to JavaScript
 * Why would you use something like the `load` event? Does this event have disadvantages? Do you know any alternatives, and why would you use those?
 * Explain event delegation
 * Describe event bubbling
 * Explain Ajax in as much detail as possible
+* --------------------------------------------------------------
 * What are the advantages and disadvantages of using Ajax?
 * Explain how JSONP works (and how it's not really Ajax)
 * What's the difference between feature detection, feature inference, using the UA string, polyfills?
