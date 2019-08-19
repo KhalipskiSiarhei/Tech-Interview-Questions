@@ -56,156 +56,43 @@
 *	What is promise chaining?
 *	What is promise.all/promise.race
 *	What are the pros and cons of promises over callbacks?
-* -----------------------------------------------------------------------------
-* What is monada?
 *	What is an Iterator?
 *	What is the main difference between Object.values and Object.entries method?
 * Sync/async/defered scripts
 * Difference between document `load` event and document `DOMContentLoaded` event?
-
 * Explain the same-origin policy with regards to JavaScript
 * Why would you use something like the `load` event? Does this event have disadvantages? Do you know any alternatives, and why would you use those?
 * Explain event delegation
 * Describe event bubbling
 * Explain Ajax in as much detail as possible
-* --------------------------------------------------------------
 * What are the advantages and disadvantages of using Ajax?
+
+* -----------------------------------------------
+* What is monada?
 * Explain how JSONP works (and how it's not really Ajax)
 * What's the difference between feature detection, feature inference, using the UA string, polyfills?
-* What's the difference between an "attribute" and a "property"?
 * What is event loop? What is the difference between call stack and task queue?
 * Micro-tasks vs Macro-tasks
+
+* What's the difference between an "attribute" and a "property"?
 * Explain the difference between synchronous and asynchronous functions
 * What do you think of AMD vs CommonJS?
 * How do you organize your code? (module pattern, classical inheritance?)
 * CEO
 
+*-------------------------------------------------
+* Describe how everything does work from typying url in the browser and dispyaing the page (DNS, SSL, HTTP request, HTTP parsin, CSS/DOM creation, JS execution model)
+* requestAnimationFrame + requestIdleCallback
+* HTTP2
+* SW + scopes + multiply PWA on the same domain
 
-// Still need to study
-* [When would you use `document.write()`?](#when-would-you-use-documentwrite)
-* [Have you ever used JavaScript templating? If so, what libraries have you used?](#have-you-ever-used-javascript-templating-if-so-what-libraries-have-you-used)
-* [Why is it called a Ternary expression, what does the word "Ternary" indicate?](#why-is-it-called-a-ternary-expression-what-does-the-word-ternary-indicate)
-* [Create a for loop that iterates up to 100 while outputting "fizz" at multiples of 3, "buzz" at multiples of 5 and "fizzbuzz" at multiples of 3 and 5](#create-a-for-loop-that-iterates-up-to-100-while-outputting-fizz-at-multiples-of-3-buzz-at-multiples-of-5-and-fizzbuzz-at-multiples-of-3-and-5)
-* [Explain what a single page app is and how to make one SEO-friendly.](#explain-what-a-single-page-app-is-and-how-to-make-one-seo-friendly)
-* [What is the extent of your experience with Promises and/or their polyfills?](#what-is-the-extent-of-your-experience-with-promises-andor-their-polyfills)
-* [What are some of the advantages/disadvantages of writing JavaScript code in a language that compiles to JavaScript?](#what-are-some-of-the-advantagesdisadvantages-of-writing-javascript-code-in-a-language-that-compiles-to-javascript)
-* [What tools and techniques do you use debugging JavaScript code?](#what-tools-and-techniques-do-you-use-for-debugging-javascript-code)
-* [Explain the difference between mutable and immutable objects.](#explain-the-difference-between-mutable-and-immutable-objects)
-* [What are the differences between ES6 class and ES5 function constructors?](#what-are-the-differences-between-es6-class-and-es5-function-constructors)
-* [ES6 Template Literals offer a lot of flexibility in generating strings, can you give an example?](#es6-template-literals-offer-a-lot-of-flexibility-in-generating-strings-can-you-give-an-example)
-* [What are the benefits of using spread syntax and how is it different from rest syntax?](#what-are-the-benefits-of-using-spread-syntax-and-how-is-it-different-from-rest-syntax)
-* [How can you share code between files?](#how-can-you-share-code-between-files)
-* [Why you might want to create static class members?](#why-you-might-want-to-create-static-class-members)
+* JWT-token authentication
+* Where to store token: cookies vs WebStorage
+* Cookies: HttpOnly, Secure, Domain/Path, SameSite, Prefixed cookies
+* XSS/CSRF volnureability, how to protect
 
-// https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Questions
-* Describe Singleton Pattern In JavaScript
-* Write a function called deepClone which takes an object and creates a object copy of it
-* Write a function called Clone which takes an object and creates a object copy of it but not copy deep property of object
-* What are promises and how they are useful?
-* How we can prevent modification of object in JavaScript?
-
-// https://github.com/sudheerj/javascript-interview-questions
-*	What is JSON and its common operations
-*	What is a first class function?
-*	What is a first order function?
-*	What is a higher order function?
-*	What is a unary function?
-*	What is currying function?
-*	How do you redeclare variables in switch block without an error?
-*	What is the benefit of using modules?
-*	What are classes in ES6?
-*	What are modules?
-*	Why do you need modules?
-*	What is a service worker?
-*	How do you manipulate DOM using service worker?
-*	How do you reuse information across service worker restarts?
-*	What is IndexedDB?
-*	What is web storage?
-*	What is a post message?
-*	What is a cookie?
-*	Why do you need a Cookie?
-*	What are the differences between cookie, local storage and session storage?
-*	What is the main difference between localStorage and sessionStorage?
-*	How do you access web storage?
-*	What are the methods available on session storage?
-*	What is a storage event and its event handler?
-*	Why do you need web storage?
-*	Give an example of web worker?
-*	What are the restrictions of web workers on DOM?
-*	What is server-sent events?
-*	How do you receive server-sent event notifications?
-*	How do you check browser support for server-sent events?
-*	What are the events available for server sent events?
-*	What is the purpose of double exclamation?
-*	What is eval?
-*	What is the difference between window and document?
-*	How do you access history in javascript?
-*	What is an event flow?
-*	What is event bubbling?
-*	What is event capturing?
-*	What is the difference between document load and DOMContentLoaded events?
-*	What are the tools or techniques used for debugging JavaScript code?
-*	What is the difference between an attribute and a property?
-*	What is same-origin policy?
-*	What are events?
-*	What is the use of preventDefault method?
-*	What is the use of stopPropagation method?
-*	What are the steps involved in return false?
-*	What is BOM?
-*	What is the use of setTimeout?
-*	What is the use of setInterval?
-*	Why is JavaScript treated as Single threaded?
-*	What is an event delegation?
-*	What is ECMAScript?
-*	What is JSON?
-*	What are the syntax rules of JSON?
-*	What is the purpose JSON stringify?
-*	How do you parse JSON string?
-*	Why do you need JSON?
-*	What are PWAs?
-*	What is the purpose of clearTimeout method?
-*	What is the purpose of clearInterval method?
-*	What are the various url properties of location object?
-*	How do get query string values in javascript?
-*	How do you check if a key exists in an object?
-*	How do you loop through or enumerate javascript object?
-*	How do you test for an empty object?
-*	How do you compare two date objects?
-*	What is an app shell model?
-*	Can we define properties for functions?
-*	What is the way to find the number of parameters expected by a function?
-*	What is a polyfill?
-*	What are break and continue statements?
-*	What are js labels?
-*	What is a debugger statement?
-*	How do you make synchronous HTTP request?
-*	How do you make asynchronous HTTP request?
-*	How do you convert date to another timezone in javascript?
-*	What are the ways to execute javascript after page load?
-*	What is a freeze method?
-*	What is the purpose of freeze method?
-*	Why do I need to use freeze method?
-*	How to convert string to title case with javascript?
-*	How do you detect javascript disabled in the page?
-*	What are various operators supported by javascript?
-*	What happens if you do not use rest parameter as a last argument?
-*	What are the bitwise operators available in javascript?
-*	How do you determine whether object is frozen or not?
-*	What is a proxy object?
-*	What is the purpose of seal method?
-*	What are the applications of seal method?
-*	What are the differences between freeze and seal methods?
-*	How do you determine if an object is sealed or not?
-*	How do you get enumerable key and value pairs?
-*	What are javascript accessors?
-*	How do you define property on Object constructor?
-*	What is the difference between get and defineProperty?
-*	Can I add getters and setters using defineProperty method?
-*	What are the function parameter rules?
-*	What are the different error names from error object?
-*	What are the various statements in error handling?
-*	What is an event loop?
-*	What is call stack?
-*	What is an event queue?
-*	What is a decorator?
-*	What is an Unary operator?
+* Angular (??)
+* Observables (??)
+* Redux pattern (NGRX, NGXS, Akita) + OnPush
+* Push notifications (offline, online)
+* PWA Offline Storage: Cache Storage API, IndexedDB. What to save and when?
