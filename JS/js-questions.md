@@ -115,3 +115,4 @@
 * What tools would you use to find a performance bug in your code?
 * Explain the difference between layout, painting and compositing.
 * What are some ways you may improve your website's scrolling performance?
+* Fonts influence on the performacne. Options to optimize it
