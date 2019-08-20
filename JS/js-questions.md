@@ -94,6 +94,8 @@
 *-------------------------------------------------
 * Angular (??)
 * Observables (??)
+* OAuth authentication + flows
+* OAuth vs OpenId vs JWT
 * Redux pattern (NGRX, NGXS, Akita) + OnPush
 * Push notifications
 * PWA Offline Storage: Cache Storage API, IndexedDB. What to save and when?
@@ -110,3 +112,6 @@
 * Consider HTML5 as an open web platform. What are the building blocks of HTML5?
 * Why is it generally a good idea to position CSS <link>s between <head></head> and JS <script>s just before </body>? Do you know any exceptions?
 * What is progressive rendering?
+* What tools would you use to find a performance bug in your code?
+* Explain the difference between layout, painting and compositing.
+* What are some ways you may improve your website's scrolling performance?
