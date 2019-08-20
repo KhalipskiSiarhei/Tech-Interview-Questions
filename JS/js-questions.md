@@ -78,7 +78,7 @@
 * Explain the difference between synchronous and asynchronous functions
 * What do you think of AMD vs CommonJS?
 * How do you organize your code? (module pattern, classical inheritance?)
-* CEO
+* SEO
 
 *-------------------------------------------------
 * Describe how everything does work from typying url in the browser and dispyaing the page (DNS, SSL, HTTP request, HTTP parsin, CSS/DOM creation, JS execution model)
@@ -94,5 +94,6 @@
 * Angular (??)
 * Observables (??)
 * Redux pattern (NGRX, NGXS, Akita) + OnPush
-* Push notifications (offline, online)
+* Push notifications
 * PWA Offline Storage: Cache Storage API, IndexedDB. What to save and when?
+* Http Caching (http headers) how to achieve, advantages and disadvantages
