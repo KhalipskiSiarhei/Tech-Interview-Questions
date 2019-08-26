@@ -66,14 +66,11 @@
 * Describe event bubbling
 * Explain Ajax in as much detail as possible
 * What are the advantages and disadvantages of using Ajax?
-
-* -----------------------------------------------
 * What is monada?
 * Explain how JSONP works (and how it's not really Ajax)
 * What's the difference between feature detection, feature inference, using the UA string, polyfills?
 * What is event loop? What is the difference between call stack and task queue?
 * Micro-tasks vs Macro-tasks
-
 * What's the difference between an "attribute" and a "property"?
 * Explain the difference between synchronous and asynchronous functions
 * What do you think of AMD vs CommonJS?
@@ -84,8 +81,8 @@
 * Describe how everything does work from typying url in the browser and dispyaing the page (DNS, SSL, HTTP request, HTTP parsin, CSS/DOM creation, JS execution model)
 * requestAnimationFrame + requestIdleCallback
 * HTTP2
-* SW + scopes + multiply PWA on the same domain
 
+* SW + scopes + multiply PWA on the same domain
 * JWT-token authentication
 * Where to store token: cookies vs WebStorage
 * Cookies: HttpOnly, Secure, Domain/Path, SameSite, Prefixed cookies
