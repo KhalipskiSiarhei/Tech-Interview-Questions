@@ -116,3 +116,5 @@
 * Explain the difference between layout, painting and compositing.
 * What are some ways you may improve your website's scrolling performance?
 * Fonts influence on the performacne. Options to optimize it
+* Explain how JS garbage collection does work
+* How to find memory leak in JS? Hot to do performance issue in JS? Which instrument do you use for this?
