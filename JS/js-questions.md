@@ -86,6 +86,7 @@
 * XSS/CSRF volnureability, how to protect
 * Traditionally, why has it been better to serve site assets from multiple domains?
 
+
 *-------------------------------------------------
 * HTTPS
 * Rendering flow
@@ -100,6 +101,7 @@
 * What are data- attributes good for?
 * Why you would use a srcset attribute in an image tag? Explain the process the browser uses when evaluating the content of this attribute.
 *-------------------------------------------------
+
 
 * OAuth authentication + flows
 * OAuth vs OpenId vs JWT
