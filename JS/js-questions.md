@@ -76,36 +76,36 @@
 * What do you think of AMD vs CommonJS?
 * How do you organize your code? (module pattern, classical inheritance?)
 * SEO
-
-*-------------------------------------------------
 * Describe how everything does work from typying url in the browser and dispyaing the page (DNS, SSL, HTTP request, HTTP parsin, CSS/DOM creation, JS execution model)
 * requestAnimationFrame + requestIdleCallback
 * HTTP2
-
 * SW + scopes + multiply PWA on the same domain
 * JWT-token authentication
 * Where to store token: cookies vs WebStorage
 * Cookies: HttpOnly, Secure, Domain/Path, SameSite, Prefixed cookies
 * XSS/CSRF volnureability, how to protect
+* Traditionally, why has it been better to serve site assets from multiple domains?
 
 *-------------------------------------------------
-* Angular (??)
-* Observables (??)
+* HTTPS
+* Rendering flow
+* Http Caching (http headers) how to achieve, advantages and disadvantages
+* What are the differences between Long-Polling, Websockets and Server-Sent Events?
+* Explain the following request and response headers: Diff. between Expires, Date, Age and If-Modified-, Do Not Track, Cache-Control, Transfer-Encoding, ETag, X-Frame-Options and other
+* What is domain pre-fetching and how does it help with performance? Resources optimization hints
+
+* What is a CDN and what is the benefit of using one?
+* What does a doctype do?
+* How do you serve a page with content in multiple languages? What kind of things must you be wary of when design or developing for multilingual sites?
+* What are data- attributes good for?
+* Why you would use a srcset attribute in an image tag? Explain the process the browser uses when evaluating the content of this attribute.
+*-------------------------------------------------
+
 * OAuth authentication + flows
 * OAuth vs OpenId vs JWT
 * Redux pattern (NGRX, NGXS, Akita) + OnPush
 * Push notifications
 * PWA Offline Storage: Cache Storage API, IndexedDB. What to save and when?
-* Http Caching (http headers) how to achieve, advantages and disadvantages
-* What are the differences between Long-Polling, Websockets and Server-Sent Events?
-* Explain the following request and response headers: Diff. between Expires, Date, Age and If-Modified-, Do Not Track, Cache-Control, Transfer-Encoding, ETag, X-Frame-Options and other
-* What is domain pre-fetching and how does it help with performance? Resources optimization hints
-* What is a CDN and what is the benefit of using one?
-* Traditionally, why has it been better to serve site assets from multiple domains?
-* What does a doctype do?
-* How do you serve a page with content in multiple languages? What kind of things must you be wary of when design or developing for multilingual sites?
-* What are data- attributes good for?
-* Why you would use a srcset attribute in an image tag? Explain the process the browser uses when evaluating the content of this attribute.
 * Consider HTML5 as an open web platform. What are the building blocks of HTML5?
 * Why is it generally a good idea to position CSS <link>s between <head></head> and JS <script>s just before </body>? Do you know any exceptions?
 * What is progressive rendering?
@@ -115,3 +115,6 @@
 * Fonts influence on the performacne. Options to optimize it
 * Explain how JS garbage collection does work
 * How to find memory leak in JS? Hot to do performance issue in JS? Which instrument do you use for this?
+
+* Angular (??)
+* Observables (??)
